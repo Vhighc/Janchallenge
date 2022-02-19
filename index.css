@@ -22,32 +22,36 @@ body{
      background-color: var(--secondary-color); 
 }
 .subbody{
-    /* background-color: #E5E5E5; */
-    background-color: #FFFFFF;
+    background-color: #E5E5E5;
     max-width: 1200px;
     margin: auto;
-    /* border: 1px solid red; */
 }
 .head01{
     display: flex;
     margin-bottom: 10%;
-    margin-top: 3%;
+    padding-top: 4%;
 }
 .plane{
     display: flex;
     margin-left: 10%;
     padding-top:12px;
 }
-.plane>h1{
+.planecont{
+    margin-bottom: 6%;
+}
+.tours{
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-secondary);
     font-style: normal;
-    font-size: 36px;
+    font-size: 18px;
     color: #6C63FF;
+}
+.tours>h1{
+    padding-top: 3%;
 }
 ul{
     text-align: right;
-    width: 60%;
+    width: 70%;
     display: inline-block;
     padding-top: 1%;
 }
@@ -108,8 +112,8 @@ a{
 }
 .heroimg{
     height: 100%;
-    width: 60%;
-    margin-right: 5.5rem;  
+    width: 70%;
+    margin-right: 6.5rem;
     padding-right: 3rem;
 }
 .subcontent{
@@ -612,7 +616,7 @@ footer{
     padding-left: 35%;
 }
 
-                                         /* FOOTER ENDS*/
+                                /* FOOTER ENDS*/
 
                               /* Responsive Design */
 
